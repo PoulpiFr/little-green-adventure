@@ -10,6 +10,7 @@ map{ id = "full_hyrule/Lost Woods", description = "full_hyrule/Lost Woods" }
 map{ id = "full_hyrule/Lumberjacks House", description = "full_hyrule/Lumberjacks House" }
 map{ id = "full_hyrule/SW Entry to Lost Woods", description = "full_hyrule/SW Entry to Lost Woods" }
 map{ id = "inside_store", description = "Inside Store" }
+map{ id = "lga/unicorn_field", description = "Unicorn field" }
 map{ id = "lga/village_main", description = "Village focus centrale" }
 map{ id = "outside_store", description = "Outside Store" }
 
