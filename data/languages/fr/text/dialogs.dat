@@ -1,0 +1,120 @@
+dialog{
+  id = "_crystal",
+  skip = "all",
+  text = [[
+C'est un interrupteur de cristal.
+Frappe-le avec quelque chose...
+]]
+}
+
+dialog{
+  id = "_shop.amount_full",
+  text = [[
+Tu es déjà au maximum !
+]]
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  skip = "all",
+  text = [[
+Désolé, mais tu n'as pas assez d'argent !
+]]
+}
+
+dialog{
+  id = "_shop.question",
+  text = [[
+Prix : $v rubis.
+        $? Acheter
+        $? Ne pas acheter
+]]
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  text = [[
+Tu as trouvé le Bouclier !
+Tu peux repousser les attaques
+des ennemis !
+]]
+}
+
+dialog{
+  id = "_treasure.shield.2",
+  text = [[
+Tu as trouvé le Bouclier de Feu !
+Tu es désormais protégé contre les
+attaques enflammées !
+]]
+}
+
+dialog{
+  id = "_treasure.shield.3",
+  text = [[
+Tu as trouvé le Bouclier Miroir !
+Tu peux désormais contrer les lasers !
+]]
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  text = [[
+Tu as obtenu l'Epée du Courage !
+Tu peux croiser le fer et affronter
+les ennemis !
+]]
+}
+
+dialog{
+  id = "_treasure.sword.2",
+  text = [[
+Tu as trouv le Glaive Hylien !
+Cette nouvelle épée est deux fois plus
+puissante que l'ancienne !
+]]
+}
+
+dialog{
+  id = "_treasure.sword.3",
+  text = [[
+Tu as trouvé le Sabre du Héros !
+Cette nouvelle lame est deux fois plus
+puissante que l'ancienne !
+]]
+}
+
+dialog{
+  id = "_treasure.sword.4",
+  text = [[
+Tu as trouvé la Lame Purificatrice !
+La puissance de cette épée ultime
+dépasse l'entendement...
+]]
+}
+
+dialog{
+  id = "cannot_lift_should_cut",
+  text = [[
+Il te faudrait quelque
+chose de tranchant pour
+couper ces buissons...
+]]
+}
+
+dialog{
+  id = "cannot_lift_still_too_heavy",
+  text = [[
+C'est beaucoup trop lourd pour toi !
+]]
+}
+
+dialog{
+  id = "cannot_lift_too_heavy",
+  text = [[
+Oh là là, c'est bien trop lourd !
+Tu n'y arriveras jamais rien que par
+la force de tes bras !
+]]
+}
+
