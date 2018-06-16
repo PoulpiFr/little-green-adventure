@@ -359,18 +359,21 @@ pickable{
   layer = 0,
   x = 88,
   y = 45,
+  treasure_name = "coca",
 }
 
 pickable{
   layer = 0,
   x = 168,
   y = 173,
+  treasure_name = "empty_bottle",
 }
 
 pickable{
   layer = 0,
   x = 280,
   y = 141,
+  treasure_name = "poulet",
 }
 
 tile{
