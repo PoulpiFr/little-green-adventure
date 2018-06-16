@@ -12,7 +12,7 @@ tile{
   layer = 0,
   x = -8,
   y = 0,
-  width = 320,
+  width = 328,
   height = 240,
   pattern = "grass.soil",
 }
@@ -718,11 +718,19 @@ sensor{
 }
 
 sensor{
-  name = "glass_trash",
+  name = "white_trash",
   layer = 0,
   x = 208,
   y = 165,
   width = 48,
   height = 64,
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 144,
+  y = 101,
+  direction = 3,
 }
 

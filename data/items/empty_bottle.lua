@@ -17,6 +17,9 @@ function item:on_started()
   -- Initialize the properties of your item here,
   -- like whether it can be saved, whether it has an amount
   -- and whether it can be assigned.
+
+item:set_savegame_variable("empty_bottle")
+
 end
 
 -- Event called when the hero is using this item.

@@ -10,10 +10,61 @@
 local map = ...
 local game = map:get_game()
 
-function waste_guy:on_interaction()
-  game:start_dialog("waste_center.guy_at_the_waste_center", function()
-        hero:start_treasure("usb_key")
+function quizz(goodAnswer)
+
+    game:start_dialog("waste_center.which_item", function(answer)
+
+    if answer == goodAnswer then
+         game:start_dialog("waste_center.good_answer")
+         value = game:get_value("waste_good_answers")
+          if value == nil then
+            value = 0                    
+          end
+
+          value = value + 1
+          game:set_value("waste_good_answers", value)
+    else
+         game:start_dialog("waste_center.bad_answer")
+    end
+
     end)
+
+end
+
+function white_trash:on_activated()
+  if game:has_item("poulet") and game:has_item("coca") and game:has_item("empty_bottle") then
+    quizz(4)
+  else
+    game:start_dialog("waste_center.not_enough_items")
+  end
+end
+
+function green_trash:on_activated()
+  if game:has_item("poulet") and game:has_item("coca") and game:has_item("empty_bottle") then
+    quizz(3)
+  else
+    game:start_dialog("waste_center.not_enough_items")
+  end
+end
+
+function yellow_trash:on_activated()
+  if game:has_item("poulet") and game:has_item("coca") and game:has_item("empty_bottle") then
+    quizz(2)
+  else
+    game:start_dialog("waste_center.not_enough_items")
+  end
+end
+
+function waste_guy:on_interaction()
+if game:get_value("waste_good_answers") >= 3 then
+  game:start_dialog("waste_center.happy_guy_at_the_waste_center.1", function()
+          game:start_dialog("waste_center.happy_guy_at_the_waste_center.2", function()
+          hero:start_treasure("usb_key")
+        end)
+    end)
+else
+   game:start_dialog("waste_center.sad_guy_at_the_waste_center")
+end
 end
 
 -- Event called at initialization time, as soon as this map becomes is loaded.

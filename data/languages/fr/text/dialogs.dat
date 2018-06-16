@@ -175,6 +175,13 @@ la force de tes bras !
 }
 
 dialog{
+  id = "hello",
+  text = [[
+Hello
+]]
+}
+
+dialog{
   id = "unicorn.give_300_coins",
   text = [[
 Oh merci beaucoup ! Cette clef USB contient 
@@ -193,7 +200,22 @@ Tu n'en aurais pas vu ?
 }
 
 dialog{
-  id = "waste_center.guy_at_the_waste_center",
+  id = "waste_center.bad_answer",
+  text = [[
+Mauvaise réponse, tu fais n'importe
+quoi...
+]]
+}
+
+dialog{
+  id = "waste_center.good_answer",
+  text = [[
+Bonne réponse !
+]]
+}
+
+dialog{
+  id = "waste_center.happy_guy_at_the_waste_center.1",
   text = [[
 Merci d'avoir nettoyé le village !
 Tu as fait ton travail de tri à la perfection.
@@ -201,11 +223,39 @@ Tu as fait ton travail de tri à la perfection.
 }
 
 dialog{
-  id = "waste_center.guy_at_the_waste_center_2",
+  id = "waste_center.happy_guy_at_the_waste_center.2",
   text = [[
 J'ai trouvé ça dans la forêt, mais je ne sais
 pas dans quelle poubelle le mettre.
 Est-ce que tu peux le faire pour moi ?
+]]
+}
+
+dialog{
+  id = "waste_center.not_enough_items",
+  text = [[
+Tu n'as pas assez d'objets. 
+Reviens plus tard.
+]]
+}
+
+dialog{
+  id = "waste_center.sad_guy_at_the_waste_center",
+  text = [[
+Le village est si sale.
+Si seulement quelqu'un pouvait s'en 
+occuper... Avec mes vieux os, je ne peux
+plus me baisser.
+]]
+}
+
+dialog{
+  id = "waste_center.which_item",
+  text = [[
+Quel objet va dans cette poubelle ?
+                            $? Canette de Coca
+                            $? Chicken wing
+                            $? Bouteille en verre
 ]]
 }
 
