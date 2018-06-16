@@ -10,8 +10,11 @@ map{ id = "full_hyrule/Lost Woods", description = "full_hyrule/Lost Woods" }
 map{ id = "full_hyrule/Lumberjacks House", description = "full_hyrule/Lumberjacks House" }
 map{ id = "full_hyrule/SW Entry to Lost Woods", description = "full_hyrule/SW Entry to Lost Woods" }
 map{ id = "inside_store", description = "Inside Store" }
+map{ id = "lga/shop", description = "Shop" }
 map{ id = "lga/unicorn_field", description = "Unicorn field" }
 map{ id = "lga/village_main", description = "Village focus centrale" }
+map{ id = "lga/waste_center", description = "Centre de tri" }
+map{ id = "lga/waste_land", description = "Waste Land" }
 map{ id = "outside_store", description = "Outside Store" }
 
 tileset{ id = "Full Hyrule", description = "Full Hyrule" }
@@ -263,6 +266,9 @@ sound{ id = "world_warp", description = "world_warp" }
 sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
 
+item{ id = "coca", description = "Coca" }
+item{ id = "empty_bottle", description = "Bouteille vide" }
+item{ id = "poulet", description = "Poulet" }
 
 
 
