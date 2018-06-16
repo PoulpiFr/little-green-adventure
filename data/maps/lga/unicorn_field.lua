@@ -18,6 +18,7 @@ function unicorn:on_interaction()
          game:start_dialog("unicorn.give_300_coins", function()
           game:get_item("usb_key"):set_variant(0)
          hero:start_treasure("300_coins")
+        game:set_value("usb_key_traded", 1)
        end)
       end
     end)

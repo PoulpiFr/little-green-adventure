@@ -68,7 +68,7 @@ dialog{
   id = "_treasure.empty_bottle.1",
   text = [[
 Les bouteilles défient la gravité. Plus elles
-sont vides et plus elles sont basses.
+sont vides et plus elles finissent par terre.
 ]]
 }
 

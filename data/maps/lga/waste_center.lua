@@ -56,7 +56,8 @@ function yellow_trash:on_activated()
 end
 
 function waste_guy:on_interaction()
-if game:get_value("waste_good_answers") >= 3 then
+goodAnswersCount = game:get_value("waste_good_answers")
+if  goodAnswersCount ~= nil and goodAnswersCount >= 3 then
   game:start_dialog("waste_center.happy_guy_at_the_waste_center.1", function()
           game:start_dialog("waste_center.happy_guy_at_the_waste_center.2", function()
           hero:start_treasure("usb_key")
