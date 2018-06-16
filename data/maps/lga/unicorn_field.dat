@@ -591,5 +591,6 @@ teletransporter{
   height = 16,
   transition = "scrolling",
   destination_map = "lga/shop",
+  destination = "_side",
 }
 
