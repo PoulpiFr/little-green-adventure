@@ -13,9 +13,12 @@ local game = map:get_game()
 
 function unicorn:on_interaction()
   game:start_dialog("unicorn.trade_stardust_proposition", function()
+        if game:has_item("usb_key") then
        game:start_dialog("unicorn.give_300_coins", function()
-      hero:start_treasure("300_coins")
-    end)
+        game:get_item("usb_key"):set_variant(0)
+       hero:start_treasure("300_coins")
+     end)
+    end
   end)
 end
 

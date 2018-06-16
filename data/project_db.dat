@@ -272,6 +272,7 @@ item{ id = "coca", description = "Coca" }
 item{ id = "empty_bottle", description = "Bouteille vide" }
 item{ id = "poulet", description = "Poulet" }
 item{ id = "solar_panel", description = "Panneau solaire" }
+item{ id = "usb_key", description = "USB Key" }
 item{ id = "wind_turbin", description = "Eolienne" }
 
 

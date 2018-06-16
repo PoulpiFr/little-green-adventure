@@ -10,6 +10,12 @@
 local map = ...
 local game = map:get_game()
 
+function waste_guy:on_interaction()
+  game:start_dialog("waste_center.guy_at_the_waste_center", function()
+        hero:start_treasure("usb_key")
+    end)
+end
+
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 

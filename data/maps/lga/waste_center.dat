@@ -690,12 +690,39 @@ teletransporter{
 }
 
 npc{
+  name = "waste_guy",
   layer = 0,
   x = 224,
   y = 69,
   direction = 3,
   subtype = 1,
   sprite = "npc/wise_old_man_green",
-  behavior = "dialog#waste_center.guy_at_the_waste_center",
+}
+
+sensor{
+  name = "yellow_trash",
+  layer = 0,
+  x = 48,
+  y = 165,
+  width = 48,
+  height = 64,
+}
+
+sensor{
+  name = "green_trash",
+  layer = 0,
+  x = 128,
+  y = 165,
+  width = 48,
+  height = 64,
+}
+
+sensor{
+  name = "glass_trash",
+  layer = 0,
+  x = 208,
+  y = 165,
+  width = 48,
+  height = 64,
 }
 

@@ -143,6 +143,13 @@ dépasse l'entendement...
 }
 
 dialog{
+  id = "_treasure.usb_key.1",
+  text = [[
+Une clef USB.
+]]
+}
+
+dialog{
   id = "cannot_lift_should_cut",
   text = [[
 Il te faudrait quelque

@@ -1,4 +1,4 @@
--- Lua script of item coca.
+-- Lua script of item usb_key.
 -- This script is executed only once for the whole game.
 
 -- Feel free to modify the code below.
@@ -18,7 +18,7 @@ function item:on_started()
   -- like whether it can be saved, whether it has an amount
   -- and whether it can be assigned.
 
-item:set_savegame_variable("coca")
+item:set_savegame_variable("usb_key")
 
 end
 
