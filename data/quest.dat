@@ -1,7 +1,7 @@
 quest{
   solarus_version = "1.5",
-  write_dir = "",
-  title = "Untitled quest",
+  write_dir = "ftw",
+  title = "Little Green Adventure",
   short_description = "",
   long_description = [[
 ]],
