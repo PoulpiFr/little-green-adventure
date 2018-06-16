@@ -160,6 +160,13 @@ animation{
   },
 }
 animation{
+  name = "coca",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 272, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
+animation{
   name = "compass",
   src_image = "entities/items.png",
   directions = {
@@ -357,6 +364,13 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 640, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "poulet",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 288, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
   },
 }
 animation{
