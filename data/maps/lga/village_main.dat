@@ -375,9 +375,9 @@ wall{
 destination{
   name = "destination",
   layer = 0,
-  x = 176,
+  x = 168,
   y = 213,
-  direction = 1,
+  direction = 3,
 }
 
 stairs{
