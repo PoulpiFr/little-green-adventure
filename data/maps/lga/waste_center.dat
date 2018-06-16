@@ -696,5 +696,6 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/wise_old_man_green",
+  behavior = "dialog#waste_center.guy_at_the_waste_center",
 }
 

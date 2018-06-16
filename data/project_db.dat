@@ -270,9 +270,12 @@ sound{ id = "zora", description = "zora" }
 item{ id = "coca", description = "Coca" }
 item{ id = "empty_bottle", description = "Bouteille vide" }
 item{ id = "poulet", description = "Poulet" }
+item{ id = "solar_panel", description = "Panneau solaire" }
+item{ id = "wind_turbin", description = "Eolienne" }
 
 
 
+language{ id = "fr", description = "fr" }
 
 font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "Green digits" }

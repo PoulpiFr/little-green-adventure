@@ -443,6 +443,13 @@ animation{
   },
 }
 animation{
+  name = "solar_panel",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 128, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
+animation{
   name = "stone_key",
   src_image = "entities/items.png",
   directions = {
@@ -466,6 +473,13 @@ animation{
     { x = 512, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 512, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 512, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "wind_turbin",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 336, y = 64, frame_width = 32, frame_height = 24, origin_x = 8, origin_y = 8 },
   },
 }
 animation{

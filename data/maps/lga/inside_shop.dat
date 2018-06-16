@@ -282,7 +282,7 @@ tile{
 tile{
   layer = 1,
   x = 64,
-  y = 112,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "717",
@@ -291,7 +291,7 @@ tile{
 tile{
   layer = 1,
   x = 232,
-  y = 144,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "725",
@@ -300,7 +300,7 @@ tile{
 tile{
   layer = 1,
   x = 72,
-  y = 120,
+  y = 112,
   width = 160,
   height = 24,
   pattern = "721",
@@ -309,7 +309,7 @@ tile{
 tile{
   layer = 1,
   x = 72,
-  y = 112,
+  y = 104,
   width = 160,
   height = 8,
   pattern = "718",
@@ -318,7 +318,7 @@ tile{
 tile{
   layer = 1,
   x = 232,
-  y = 112,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "719",
@@ -327,7 +327,7 @@ tile{
 tile{
   layer = 1,
   x = 64,
-  y = 144,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "723",
@@ -336,7 +336,7 @@ tile{
 tile{
   layer = 1,
   x = 72,
-  y = 144,
+  y = 136,
   width = 160,
   height = 8,
   pattern = "724",
@@ -345,7 +345,7 @@ tile{
 tile{
   layer = 1,
   x = 232,
-  y = 120,
+  y = 112,
   width = 8,
   height = 24,
   pattern = "720",
@@ -354,7 +354,7 @@ tile{
 tile{
   layer = 1,
   x = 64,
-  y = 120,
+  y = 112,
   width = 8,
   height = 24,
   pattern = "722",
@@ -379,35 +379,24 @@ npc{
 
 shop_treasure{
   layer = 1,
-  x = 64,
+  x = 80,
   y = 112,
-  treasure_name = "",
+  treasure_name = "solar_panel",
   treasure_savegame_variable = "solar_panel",
   price = 500,
-  font = "green_digits",
-  dialog = "solar_panel",
+  font = "white_digits",
+  dialog = "_shop.solar_panel",
 }
 
 shop_treasure{
   layer = 1,
-  x = 136,
+  x = 192,
   y = 112,
-  treasure_name = "",
-  treasure_savegame_variable = "solar_panel",
-  price = 500,
-  font = "green_digits",
-  dialog = "solar_panel",
-}
-
-shop_treasure{
-  layer = 1,
-  x = 208,
-  y = 112,
-  treasure_name = "",
-  treasure_savegame_variable = "solar_panel",
-  price = 500,
-  font = "green_digits",
-  dialog = "solar_panel",
+  treasure_name = "wind_turbin",
+  treasure_savegame_variable = "wind_turbin",
+  price = 10000,
+  font = "white_digits",
+  dialog = "_shop.wind_turbin",
 }
 
 teletransporter{

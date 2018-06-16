@@ -32,6 +32,23 @@ Prix : $v rubis.
 }
 
 dialog{
+  id = "_shop.solar_panel",
+  text = [[
+C'est un panneau solaire ! Utile pour produire 
+de l'électricité par beau temps.
+A installer sur un toit.
+]]
+}
+
+dialog{
+  id = "_shop.wind_turbin",
+  text = [[
+C'est une éolienne, elle peut produire de 
+l'électricité par temps venteux.
+]]
+}
+
+dialog{
   id = "_treasure.shield.1",
   text = [[
 Tu as trouvé le Bouclier !
@@ -115,6 +132,32 @@ dialog{
 Oh là là, c'est bien trop lourd !
 Tu n'y arriveras jamais rien que par
 la force de tes bras !
+]]
+}
+
+dialog{
+  id = "unicorn.trade_stardust",
+  text = [[
+Hello, je suis GAFAM, la Licorne.
+Je suis à la recherche de poussière d'étoile.
+Tu n'en aurais pas vu ?
+]]
+}
+
+dialog{
+  id = "waste_center.guy_at_the_waste_center",
+  text = [[
+Merci d'avoir nettoyé le village !
+Tu as fait ton travail de tri à la perfection.
+]]
+}
+
+dialog{
+  id = "waste_center.guy_at_the_waste_center_2",
+  text = [[
+J'ai trouvé ça dans la forêt, mais je ne sais
+pas dans quelle poubelle le mettre.
+Est-ce que tu peux le faire pour moi ?
 ]]
 }
 
