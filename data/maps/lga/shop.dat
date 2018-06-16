@@ -278,6 +278,7 @@ teletransporter{
   height = 16,
   transition = "scrolling",
   destination_map = "lga/unicorn_field",
+  destination = "_side",
 }
 
 wall{
@@ -300,6 +301,24 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
+}
+
+destination{
+  name = "outside_shop_destination",
+  layer = 0,
+  x = 160,
+  y = 165,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 144,
+  width = 16,
+  height = 16,
+  destination_map = "lga/inside_shop",
+  destination = "inside_shop_destination",
 }
 
 tile{
