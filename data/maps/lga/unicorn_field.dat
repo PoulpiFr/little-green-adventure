@@ -570,3 +570,25 @@ teletransporter{
   destination = "_side",
 }
 
+teletransporter{
+  name = "to_waste_center",
+  layer = 0,
+  x = 136,
+  y = 240,
+  width = 32,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "lga/waste_center",
+}
+
+teletransporter{
+  name = "to_shop",
+  layer = 0,
+  x = 320,
+  y = 112,
+  width = 16,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "lga/shop",
+}
+
