@@ -101,6 +101,7 @@ sprite{ id = "npc/fat_fairy", description = "Fat fairy" }
 sprite{ id = "npc/flute_boy", description = "Flute boy" }
 sprite{ id = "npc/frog", description = "Frog" }
 sprite{ id = "npc/ghostly_proprietor", description = "Ghostly Proprietor" }
+sprite{ id = "npc/giant_unicorn", description = "Giant Unicorn" }
 sprite{ id = "npc/grandson", description = "Grandson" }
 sprite{ id = "npc/great_fairy", description = "Great Fairy" }
 sprite{ id = "npc/lady_blue", description = "Blue lady" }
