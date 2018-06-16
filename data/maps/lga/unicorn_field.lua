@@ -10,6 +10,15 @@
 local map = ...
 local game = map:get_game()
 
+
+function unicorn:on_interaction()
+  game:start_dialog("unicorn.trade_stardust_proposition", function()
+       game:start_dialog("unicorn.give_300_coins", function()
+      hero:start_treasure("300_coins")
+    end)
+  end)
+end
+
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 

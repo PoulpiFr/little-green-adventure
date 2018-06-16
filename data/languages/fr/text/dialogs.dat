@@ -49,6 +49,38 @@ l'électricité par temps venteux.
 }
 
 dialog{
+  id = "_treasure.300_coins.1",
+  text = [[
+Tu as gagné 300 rubis.
+Yeepeekay!
+]]
+}
+
+dialog{
+  id = "_treasure.coca.1",
+  text = [[
+Tu as ramassé une canette de Coca.
+Beurk, il en reste un peu.
+]]
+}
+
+dialog{
+  id = "_treasure.empty_bottle.1",
+  text = [[
+Les bouteilles défient la gravité. Plus elles
+sont vides et plus elles sont basses.
+]]
+}
+
+dialog{
+  id = "_treasure.poulet.1",
+  text = [[
+Une chicken wing si loin de son bucket.
+Triste histoire.
+]]
+}
+
+dialog{
   id = "_treasure.shield.1",
   text = [[
 Tu as trouvé le Bouclier !
@@ -136,7 +168,16 @@ la force de tes bras !
 }
 
 dialog{
-  id = "unicorn.trade_stardust",
+  id = "unicorn.give_300_coins",
+  text = [[
+Oh merci beaucoup ! Cette clef USB contient 
+les plans du prochain iPhone. 
+Prends ça pour tes efforts.
+]]
+}
+
+dialog{
+  id = "unicorn.trade_stardust_proposition",
   text = [[
 Hello, je suis GAFAM, la Licorne.
 Je suis à la recherche de poussière d'étoile.

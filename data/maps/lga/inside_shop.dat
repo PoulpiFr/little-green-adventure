@@ -383,7 +383,7 @@ shop_treasure{
   y = 112,
   treasure_name = "solar_panel",
   treasure_savegame_variable = "solar_panel",
-  price = 500,
+  price = 300,
   font = "white_digits",
   dialog = "_shop.solar_panel",
 }
