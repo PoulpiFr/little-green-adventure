@@ -145,7 +145,8 @@ dépasse l'entendement...
 dialog{
   id = "_treasure.usb_key.1",
   text = [[
-Une clef USB.
+C'est une clef USB.
+Quels secrets peut-elle bien renfermer ?
 ]]
 }
 
@@ -175,13 +176,6 @@ la force de tes bras !
 }
 
 dialog{
-  id = "hello",
-  text = [[
-Hello
-]]
-}
-
-dialog{
   id = "unicorn.give_300_coins",
   text = [[
 Oh merci beaucoup ! Cette clef USB contient 
@@ -191,11 +185,21 @@ Prends ça pour tes efforts.
 }
 
 dialog{
-  id = "unicorn.trade_stardust_proposition",
+  id = "unicorn.next_iphone",
+  text = [[
+Tu veux un secret ?
+Le prochain iPhone sera uniquement
+disponible en ROSE avec de paillettes.
+C'est pas trop cool ?
+]]
+}
+
+dialog{
+  id = "unicorn.trade_usb_key_proposition",
   text = [[
 Hello, je suis GAFAM, la Licorne.
-Je suis à la recherche de poussière d'étoile.
-Tu n'en aurais pas vu ?
+J'ai perdu une clef USB.
+Tu ne l'aurais pas vu ?
 ]]
 }
 
