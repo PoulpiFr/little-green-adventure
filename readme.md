@@ -7,9 +7,10 @@ Many assets were taken from the Zelda "A Link to the past" game (I'm not a desig
 ## Tech used
 
 - Solarus engine (see below)
-- Lua scripting
-- GIMP (weirdly the hardest part...)
+- Lua scripting for all dialogs / logic
+- GIMP for Tiles / Sprites creation / import (weirdly the hardest part...)
 
 ## How to run the game
 
-Coming soon.
+On mac OS:
+Run the "solarus-run" app.
