@@ -368,7 +368,6 @@ pickable{
   x = 168,
   y = 173,
   treasure_name = "empty_bottle",
-  treasure_variant = 2,
   treasure_savegame_variable = "empty_bottle_waste_pickable",
 }
 
