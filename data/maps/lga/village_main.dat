@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "light_world",
+  music = "zelda",
 }
 
 tile{
@@ -712,5 +713,16 @@ jumper{
   height = 8,
   direction = 6,
   jump_length = 64,
+}
+
+custom_entity{
+  name = "solar_panel_on_rooftop",
+  layer = 1,
+  x = 72,
+  y = 77,
+  width = 192,
+  height = 64,
+  direction = 0,
+  model = "solar_panel_on_rooftop",
 }
 

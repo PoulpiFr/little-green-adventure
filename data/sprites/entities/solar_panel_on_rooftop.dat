@@ -1,0 +1,7 @@
+animation{
+  name = "stopped",
+  src_image = "entities/solar_panel_on_roof.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 192, frame_height = 64, origin_x = 0, origin_y = 0 },
+  },
+}

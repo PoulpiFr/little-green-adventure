@@ -17,6 +17,7 @@ map{ id = "lga/village_main", description = "Village focus centrale" }
 map{ id = "lga/waste_center", description = "Centre de tri" }
 map{ id = "lga/waste_land", description = "Waste Land" }
 map{ id = "outside_store", description = "Outside Store" }
+map{ id = "test", description = "test" }
 
 tileset{ id = "Full Hyrule", description = "Full Hyrule" }
 tileset{ id = "cave", description = "Cave" }
@@ -61,6 +62,7 @@ sprite{ id = "entities/items", description = "Items" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/sign", description = "Sign" }
+sprite{ id = "entities/solar_panel_on_rooftop", description = "Solar Panel on rooftop" }
 sprite{ id = "entities/solid_switch", description = "Solid switch" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
@@ -276,6 +278,7 @@ item{ id = "usb_key", description = "USB Key" }
 item{ id = "wind_turbin", description = "Eolienne" }
 
 
+entity{ id = "solar_panel_on_rooftop", description = "Solar Panel on roof" }
 
 language{ id = "fr", description = "fr" }
 
