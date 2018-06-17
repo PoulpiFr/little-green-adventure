@@ -12,7 +12,7 @@ local item = ...
 local game = item:get_game()
 
 function item:on_obtained(variant, savegame_variable)
-self:get_game():add_money(300)
+self:get_game():add_money(30)
 end
 
 -- Event called when the game is initialized.

@@ -384,7 +384,7 @@ shop_treasure{
   y = 112,
   treasure_name = "solar_panel",
   treasure_savegame_variable = "solar_panel",
-  price = 300,
+  price = 30,
   font = "white_digits",
   dialog = "_shop.solar_panel",
 }
@@ -395,7 +395,7 @@ shop_treasure{
   y = 112,
   treasure_name = "wind_turbin",
   treasure_savegame_variable = "wind_turbin",
-  price = 10000,
+  price = 300,
   font = "white_digits",
   dialog = "_shop.wind_turbin",
 }

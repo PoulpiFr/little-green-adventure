@@ -51,8 +51,8 @@ l'électricité par temps venteux.
 dialog{
   id = "_treasure.300_coins.1",
   text = [[
-Tu as gagné 300 rubis.
-Yeepeekay!
+Tu as gagné 30 rubis.
+Yeepeekay!!!
 ]]
 }
 
@@ -188,7 +188,7 @@ dialog{
   id = "unicorn.next_iphone",
   text = [[
 Tu veux un secret ?
-Le prochain iPhone sera uniquement
+Le prochain LemonPhone sera uniquement
 disponible en ROSE avec de paillettes.
 C'est pas trop cool ?
 ]]
