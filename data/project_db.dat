@@ -17,7 +17,6 @@ map{ id = "lga/village_main", description = "Village focus centrale" }
 map{ id = "lga/waste_center", description = "Centre de tri" }
 map{ id = "lga/waste_land", description = "Waste Land" }
 map{ id = "outside_store", description = "Outside Store" }
-map{ id = "test", description = "test" }
 
 tileset{ id = "Full Hyrule", description = "Full Hyrule" }
 tileset{ id = "cave", description = "Cave" }
