@@ -14,12 +14,12 @@ function sol.main:on_started()
   local solarus_logo = require("scripts/menus/solarus_logo")
 
   -- Show the Solarus logo initially.
-  sol.menu.start(self, solarus_logo)
+  --sol.menu.start(self, solarus_logo)
 
   -- Start the game when the Solarus logo menu is finished.
-  solarus_logo.on_finished = function()
+  --solarus_logo.on_finished = function()
     game_manager:start_game("save1.dat")
-  end
+  --end
 
 end
 
@@ -27,11 +27,11 @@ end
 function sol.main:on_key_pressed(key, modifiers)
 
   local handled = false
-  if key == "f5" then
+  if key == "m" then
     -- F5: change the video mode.
     sol.video.switch_mode()
     handled = true
-  elseif key == "f11" or
+  elseif key == "f" or
     (key == "return" and (modifiers.alt or modifiers.control)) then
     -- F11 or Ctrl + return or Alt + Return: switch fullscreen.
     sol.video.set_fullscreen(not sol.video.is_fullscreen())
