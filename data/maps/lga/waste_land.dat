@@ -360,6 +360,7 @@ pickable{
   x = 88,
   y = 45,
   treasure_name = "coca",
+  treasure_savegame_variable = "coca_waste_pickable",
 }
 
 pickable{
@@ -367,6 +368,8 @@ pickable{
   x = 168,
   y = 173,
   treasure_name = "empty_bottle",
+  treasure_variant = 2,
+  treasure_savegame_variable = "empty_bottle_waste_pickable",
 }
 
 pickable{
@@ -374,6 +377,7 @@ pickable{
   x = 280,
   y = 141,
   treasure_name = "poulet",
+  treasure_savegame_variable = "poulet_waste_pickable",
 }
 
 tile{
