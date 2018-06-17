@@ -217,6 +217,7 @@ sound{ id = "item_in_water", description = "item_in_water" }
 sound{ id = "jump", description = "jump" }
 sound{ id = "lamp", description = "lamp" }
 sound{ id = "lift", description = "lift" }
+sound{ id = "mac_gyver", description = "mac_gyver" }
 sound{ id = "magic_bar", description = "magic_bar" }
 sound{ id = "message_end", description = "message_end" }
 sound{ id = "message_letter", description = "message_letter" }

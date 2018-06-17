@@ -26,6 +26,8 @@ function entity:on_interaction()
 entity:create_sprite("entities/solar_panel_on_rooftop")
 entity:set_origin(0, 0)
 
+sol.audio.play_sound("mac_gyver")
+
 game:start_dialog("you_won.1", function ()
 game:start_dialog("you_won.2")
 end)
