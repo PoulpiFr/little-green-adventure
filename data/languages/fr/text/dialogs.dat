@@ -178,8 +178,8 @@ la force de tes bras !
 dialog{
   id = "unicorn.give_300_coins",
   text = [[
-Oh merci beaucoup ! Cette clef USB contient 
-les plans du prochain iPhone. 
+Quel soulagement ! Cette clef USB contient 
+les plans du prochain LemonPhone...
 Prends ça pour tes efforts.
 ]]
 }
@@ -197,7 +197,7 @@ C'est pas trop cool ?
 dialog{
   id = "unicorn.trade_usb_key_proposition",
   text = [[
-Hello, je suis GAFAM, la Licorne.
+Hello, je suis Lemon, la Licorne.
 J'ai perdu une clef USB.
 Tu ne l'aurais pas vu ?
 ]]
