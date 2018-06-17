@@ -25,5 +25,9 @@ function entity:on_interaction()
 -- TODO check for solar panel in inventory
 entity:create_sprite("entities/solar_panel_on_rooftop")
 entity:set_origin(0, 0)
+
+game:start_dialog("you_won.1", function ()
+game:start_dialog("you_won.2")
+end)
 end
 

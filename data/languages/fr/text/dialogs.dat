@@ -263,3 +263,20 @@ Quel objet va dans cette poubelle ?
 ]]
 }
 
+dialog{
+  id = "you_won.1",
+  text = [[
+Félicitation, tu peux maintenant utiliser
+l'énergie solaire pour te chauffer.
+]]
+}
+
+dialog{
+  id = "you_won.2",
+  text = [[
+Oh non, des nuages sombres arrivent.
+Ils cachent le soleil et coupent ta 
+production d'énergie. Comment faire ?
+]]
+}
+

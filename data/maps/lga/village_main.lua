@@ -10,11 +10,6 @@
 local map = ...
 local game = map:get_game()
 
-function walk_on_rooftop:on_activated()
-print("hello")
-solar_panel_on_rooftop:install_solar_panel()
-end
-
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 

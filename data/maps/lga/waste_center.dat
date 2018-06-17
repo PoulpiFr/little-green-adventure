@@ -774,8 +774,8 @@ teletransporter{
 npc{
   name = "waste_guy",
   layer = 0,
-  x = 224,
-  y = 69,
+  x = 56,
+  y = 45,
   direction = 3,
   subtype = 1,
   sprite = "npc/wise_old_man_green",
