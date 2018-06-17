@@ -51,7 +51,7 @@ l'électricité par temps venteux.
 dialog{
   id = "_treasure.300_coins.1",
   text = [[
-Tu as gagné 30 rubis.
+Tu as gagné 30 bitcoins.
 Yeepeekay!!!
 ]]
 }
