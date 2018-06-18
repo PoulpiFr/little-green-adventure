@@ -13,7 +13,6 @@ local game = map:get_game()
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
-hero:set_walking_speed(150)
 
   -- You can initialize the movement and sprites of various
   -- map entities here.
